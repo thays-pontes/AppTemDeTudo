@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/branco"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/confirmacao" />
+
+    <TextView
+        android:id="@+id/txtMensagem"
+        android:textColor="@color/cinza_escuro"
+        android:textSize="22sp"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="@string/voltar"
+        android:onClick="voltarInicio"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/verde_claro"
+        android:textColor="@color/branco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

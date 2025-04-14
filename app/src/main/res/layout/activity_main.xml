@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/verde_claro"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:text="@string/boas_vindas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/branco"
+        android:textSize="24sp"
+        android:layout_marginTop="24dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:text="@string/iniciar_cadastro"
+        android:onClick="iniciarCadastro"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/verde_escuro"
+        android:textColor="@color/branco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
